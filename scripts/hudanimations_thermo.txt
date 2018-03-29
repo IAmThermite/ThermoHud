@@ -68,3 +68,15 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 	FgColor		"ThermoWhite"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"ThermoWhite"		Linear 0.0 0.0001
 }
+
+// ===== TEAM PANEL ===== //
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible SkullPanel  1 0
+	SetVisible respawntime  1 0
+}
+
+event TeamStatus_PlayerAlive
+{
+}

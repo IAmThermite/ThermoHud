@@ -16,7 +16,7 @@
 		"team1_player_delta_y"				"-25"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"260"
+		"team2_player_base_y"				"250"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"25"
 		
@@ -242,7 +242,7 @@
 			"tall"					"180"
 	
 			"team1_player_delta_x"			"52"
-		}		
+		}
 	}
 
 	"topbar"

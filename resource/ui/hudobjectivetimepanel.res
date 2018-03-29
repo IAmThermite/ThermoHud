@@ -267,15 +267,6 @@
 		"wrap"			"0"
 		"font"			"Oxygen48"
 		"fgcolor"		"ThermoHurt"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"wide"					"110"
-			"font"					"Oxygen48"
-		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
