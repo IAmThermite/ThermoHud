@@ -1,0 +1,70 @@
+// ===== DEBUFF AND BUFF ===== //
+event HudHealthBonusPulse
+{
+	Animate PlayerStatusHealthValue			FgColor		"ThermoHealthHigh"	Accel 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate PlayerStatusHealthValue			FgColor		"ThermoHealthNormal"		Accel 0.0 0.0
+	
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+}
+
+event HudHealthDyingPulse
+{
+	Animate PlayerStatusHealthValue			FgColor		"ThermoHealthLow"	Accel 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate PlayerStatusHealthValue			FgColor		"ThermoHealthNormal"		Accel 0.0 0.0
+	
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+}
+
+
+// ===== MEDIC CHARGE ===== //
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"ThermoUber1"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"ThermoUber2"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"ThermoUber1"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"ThermoUber2"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeLabel 	FgColor		"ThermoWhite"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"ThermoWhite"		Linear 0.0 0.0001
+}
