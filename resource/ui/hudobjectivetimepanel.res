@@ -99,7 +99,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"0"
+		"xpos"			"-112"
 		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"72"
@@ -116,12 +116,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
+			"xpos"					"-112"
 			"ypos"					"21"
 			"wide"					"p1"
 			"font"					"Oxygen12"
-			"font_hidef"			"Oxygen12"
-			"font_lodef"			"Oxygen12"
 		}
 	}			
 	"OvertimeBG"
@@ -200,34 +198,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"0"
-		"ypos"			"30"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"5"
 		"wide"			"72"
 		"tall"			"15"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-			"ypos_minmode"			"21"
-			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
-		}
 	}	
 	"SetupBG"
 	{

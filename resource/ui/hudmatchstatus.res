@@ -201,8 +201,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}	
@@ -220,11 +220,6 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
 	
 	"RankUpLabel"
@@ -314,10 +309,10 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"r60"
+		"ypos"			"r65"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"75"
+		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
 
