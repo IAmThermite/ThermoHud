@@ -77,12 +77,6 @@
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"ThermoWhite"
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
 	}
 	
 	"CountdownLabelShadow"
@@ -104,13 +98,6 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ThermoBlack"
 		"proportionaltoparent"	"1"
-
-	
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
 	}	
 
 	"FrontParticlePanel"
@@ -309,7 +296,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"r65"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"65"
@@ -323,17 +310,17 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-10"
+		"team1_base_x"	"c-40"
 		"team1_max_expand"	"180"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c10"
+		"team2_base_x"	"c40"
 		"team2_max_expand"	"180"
 
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"20"
+			"wide"			"z0"
 			"tall"			"50"
 			"zpos"			"1"
 

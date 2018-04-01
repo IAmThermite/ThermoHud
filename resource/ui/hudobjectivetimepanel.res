@@ -50,10 +50,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"0"
-		"ypos"			"30"
+		"xpos"					"-112"
+		"ypos"					"21"
 		"zpos"			"5"
-		"wide"			"72"
+		"wide"			"p1"
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
@@ -62,18 +62,16 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Oxygen10"
+		"font"			"Oxygen12"
 		"fgcolor"       "ThermoWhite"
 
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
+			"xpos"					"-112"
 			"ypos"					"21"
 			"wide"					"p1"
 			"font"					"Oxygen12"
-			"font_hidef"			"Oxygen12"
-			"font_lodef"			"Oxygen12"
 		}
 	}			
 	"WaitingForPlayersBG"
