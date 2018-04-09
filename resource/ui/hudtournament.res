@@ -102,12 +102,7 @@
 
 				if_competitive
 				{
-					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
 					"image"			"../vgui/hud_connecting"
-					"proportionaltoparent" "1"
 				}
 
 				if_readymode
@@ -137,16 +132,6 @@
 				if_mvm
 				{
 					"visible"		"1"
-				}
-
-				if_competitive
-				{
-					"xpos"			"4"
-					"ypos"			"4"
-					"wide"			"p0.4"
-					"tall"			"p0.6"
-					"visible"		"1"
-					"proportionaltoparent" "1"
 				}
 
 				if_readymode
@@ -209,11 +194,6 @@
 				
 				if_competitive
 				{
-					"xpos"			"28"
-					"ypos"			"5"
-					"wide"			"p0.3"
-					"tall"			"p0.45"
-					"proportionaltoparent" "1"
 					"visible"		"1"
 				}
 				
@@ -246,12 +226,7 @@
 
 				if_competitive
 				{
-					"xpos"			"30"
-					"ypos"			"7"
-					"wide"			"p0.21"
-					"tall"			"p0.34"
 					"proportionaltoparent" "1"
-					"visible"		"1"
 				}
 
 				if_readymode
@@ -276,16 +251,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
-				
-				if_competitive
-				{
-					"xpos"			"6"
-					"ypos"			"7.5"
-					"wide"			"p0.5"
-					"tall"			"p0.28"
-					"autoResize"	"1"
-					"proportionaltoparent" "1"
-				}
 			}
 			
 			"chargeamount"
@@ -309,15 +274,6 @@
 				{	
 					"visible"		"0"
 				}
-				
-				if_competitive
-				{
-					"xpos"			"22"
-					"ypos"			"15"
-					"wide"			"p0.45"
-					"tall"			"p0.28"
-					"proportionaltoparent" "1"
-				}
 			}
 			
 			"specindex"
@@ -335,14 +291,6 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-				
-				if_competitive
-				{
-					"wide"			"p0.9"
-					"tall"			"p0.22"
-					"proportionaltoparent" "1"
-				}
 			}
 		}
 	}

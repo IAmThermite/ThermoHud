@@ -15,7 +15,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"72"
+		"wide"				"40"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -26,66 +26,51 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Oxygen12"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Oxygen12"
-		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Oxygen32"
+			"font"			"Oxygen24"
 			"fgcolor"		"ThermoWhite"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"72"
-			"tall"			"30"
+			"wide"			"40"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"		"east"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
-			}
-		}	
+		}
+	    "TimePanelLine"
+	    {
+		    "ControlName"	"CTFImagePanel"
+		    "fieldName"		"TimePanelLine"
+		    "xpos"			"0"
+		    "ypos"			"20"
+		    "zpos"			"0"
+		    "wide"			"40"
+		    "tall"			"3"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "image"			"../hud/color_panel_blu"
+		    "scaleImage"		"1"
+		    "src_corner_height"		"15"
+		    "src_corner_width"		"15"
+		    "draw_corner_width"		"0"
+		    "draw_corner_height" 	"0"	
+	    }
 	}
 
 	"RedTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"72"
+		"xpos"				"40"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"72"
+		"wide"				"40"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -96,54 +81,41 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Oxygen12"
-
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
-			"ypos"					"0"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Oxygen12"
-		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Oxygen32"
+			"font"			"Oxygen24"
 			"fgcolor"		"ThermoWhite"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"72"
-			"tall"			"31"
+			"wide"			"40"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"		"west"
 			"labelText"		"0:00"
-
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"font"			"Oxygen12"
-			
-			}
-		}	
+		}
+	    "TimePanelLine"
+	    {
+		    "ControlName"	"CTFImagePanel"
+		    "fieldName"		"TimePanelLine"
+		    "xpos"			"0"
+		    "ypos"			"20"
+		    "zpos"			"0"
+		    "wide"			"40"
+		    "tall"			"3"
+		    "visible"		"1"
+		    "enabled"		"1"
+		    "image"			"../hud/color_panel_red"
+		    "scaleImage"		"1"
+		    "src_corner_height"		"15"
+		    "src_corner_width"		"15"
+		    "draw_corner_width"		"0"
+		    "draw_corner_height" 	"0"	
+	    }
 	}
 	
 	"ActiveTimerBG"
@@ -156,7 +128,7 @@
 		"wide"				"72"
 		"tall"				"4"
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"fillcolor"         "ThermoHurt"
 		"scaleImage"		"1"	
 	}
