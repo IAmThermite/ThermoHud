@@ -16,7 +16,7 @@
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"40"
-		"tall"				"150"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"0"
@@ -26,6 +26,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Oxygen12"
+		"bgcolor_override" "TF2BluTransparent"
 		
 		"TimePanelValue"
 		{
@@ -40,27 +41,9 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"east"
+			"textAlignment"		"north"
 			"labelText"		"0:00"
 		}
-	    "TimePanelLine"
-	    {
-		    "ControlName"	"CTFImagePanel"
-		    "fieldName"		"TimePanelLine"
-		    "xpos"			"0"
-		    "ypos"			"20"
-		    "zpos"			"0"
-		    "wide"			"40"
-		    "tall"			"3"
-		    "visible"		"1"
-		    "enabled"		"1"
-		    "image"			"../hud/color_panel_blu"
-		    "scaleImage"		"1"
-		    "src_corner_height"		"15"
-		    "src_corner_width"		"15"
-		    "draw_corner_width"		"0"
-		    "draw_corner_height" 	"0"	
-	    }
 	}
 
 	"RedTimer"
@@ -71,7 +54,7 @@
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"40"
-		"tall"				"150"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"0"
@@ -81,6 +64,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Oxygen12"
+		"bgcolor_override" "TF2RedTransparent"
 		
 		"TimePanelValue"
 		{
@@ -95,27 +79,9 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"west"
+			"textAlignment"		"north"
 			"labelText"		"0:00"
 		}
-	    "TimePanelLine"
-	    {
-		    "ControlName"	"CTFImagePanel"
-		    "fieldName"		"TimePanelLine"
-		    "xpos"			"0"
-		    "ypos"			"20"
-		    "zpos"			"0"
-		    "wide"			"40"
-		    "tall"			"3"
-		    "visible"		"1"
-		    "enabled"		"1"
-		    "image"			"../hud/color_panel_red"
-		    "scaleImage"		"1"
-		    "src_corner_height"		"15"
-		    "src_corner_width"		"15"
-		    "draw_corner_width"		"0"
-		    "draw_corner_height" 	"0"	
-	    }
 	}
 	
 	"ActiveTimerBG"
@@ -125,7 +91,7 @@
 		"xpos"				"0"
 		"ypos"				"30"
 		"zpos"				"1"
-		"wide"				"72"
+		"wide"				"50"
 		"tall"				"4"
 		"visible"			"0"
 		"enabled"			"0"

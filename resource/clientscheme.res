@@ -230,6 +230,12 @@ Scheme
 		
 		"ThermoUber1" "66 244 209 255"
 		"ThermoUber2" "247 46 230 255"
+
+		"TF2Red" "184 56 59 255"
+		"TF2Blu" "88 133 162 255"
+
+		"TF2RedTransparent" "184 56 59 170"
+		"TF2BluTransparent" "88 133 162 170"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

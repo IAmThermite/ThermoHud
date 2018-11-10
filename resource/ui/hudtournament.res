@@ -19,7 +19,7 @@
 		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"teams_player_delta_x_comp"			"47"
 
 		"avatar_width"	"63"
 		"spacer"		"5"
@@ -222,11 +222,6 @@
 				if_mvm
 				{
 					"visible"		"1"
-				}
-
-				if_competitive
-				{
-					"proportionaltoparent" "1"
 				}
 
 				if_readymode
