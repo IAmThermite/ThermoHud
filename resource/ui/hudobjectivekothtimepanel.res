@@ -33,7 +33,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Oxygen24"
-			"fgcolor"		"ThermoWhite"
+			"fgcolor"		"ThermoBlack"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -41,7 +41,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"north"
+			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}
 	}
@@ -52,7 +52,7 @@
 		"fieldName"			"RedTimer"
 		"xpos"				"40"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"5"
 		"wide"				"40"
 		"tall"				"20"
 		"visible"			"1"
@@ -71,7 +71,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Oxygen24"
-			"fgcolor"		"ThermoWhite"
+			"fgcolor"		"ThermoBlack"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -79,7 +79,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"north"
+			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}
 	}
